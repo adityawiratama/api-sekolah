@@ -109,7 +109,7 @@ components:
         jenis_kelamin: { type: string, enum: [Laki-laki, Perempuan] }
     SiswaInput:
       type: object
-      required: [nama, jurusan]
+      required: [nama, jurusan, absen, kelas, alamat, telepon, email, tanggal_lahir, jenis_kelamin]
       properties:
         nama: { type: string }
         jurusan: { type: string }
